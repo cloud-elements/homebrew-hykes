@@ -6,11 +6,10 @@ class HykesBlueprinter < Formula
   def install
     bin.mkpath
     (etc/"hykes-blueprinter").mkpath
-    system "make", "install", "bindir=#{bin}", "etcdir=#{etc}"
+    system "make", "install", "bindir=#{bin}", "etcdir=#{etc}/hykes-blueprinter"
   end
 
   depends_on "ansible"
-  depends_on "bats"
   depends_on "coreutils"
   depends_on "git"
 
