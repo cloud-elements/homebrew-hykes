@@ -10,7 +10,6 @@ class HykesBlueprinter < Formula
   end
 
   depends_on "ansible"
-  depends_on "bats"
   depends_on "coreutils"
   depends_on "git"
 
