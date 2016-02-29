@@ -1,7 +1,7 @@
 class HykesProvision < Formula
   homepage "https://github.com/cloud-elements/hykes-provision"
-  url "https://github.com/cloud-elements/hykes-provision/archive/v0.0.2.tar.gz"
-  sha256 "b4bcd38d1a35da21cea730ec076ee0b9422bda828204eae45bc99d7ea8cc878d"
+  url "https://github.com/cloud-elements/hykes-provision/archive/v0.1.0.tar.gz"
+  sha256 "22c6b5c795ec0cc5e88b82656a4c9f07b7cc6320f8335720cc758b911fdcb8d9"
 
   depends_on "coreutils"
   depends_on "hykes-blueprint"
@@ -9,7 +9,7 @@ class HykesProvision < Formula
   def install
     bin.mkpath
     (etc/"hykes-provision").mkpath
-    system "make", "install", "bindir=#{bin}", "etcdir=#{etc}/hykes-provision"
+    system "make", "install", "bindir=#{bin}"
   end
 
   test do
