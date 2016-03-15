@@ -1,4 +1,4 @@
-# homebrew-hykes <sub><sup>| Automagically install Hykes projects via Homebrew</sup></sub>
+# homebrew-hykes <sub><sup>| Install Cloud Elements Enterprise projects via Homebrew</sup></sub>
 [![version](http://img.shields.io/badge/version-n/a-blue.svg)](#)
 [![versioning](http://img.shields.io/badge/versioning-continous-blue.svg)](#)
 [![branching](http://img.shields.io/badge/branching-github%20flow-blue.svg)](https://guides.github.com/introduction/flow/)
