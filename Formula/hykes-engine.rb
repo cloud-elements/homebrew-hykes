@@ -1,4 +1,4 @@
-class HykesBlueprint < Formula
+class HykesEngine < Formula
   homepage "https://github.com/cloud-elements/hykes-engine"
   url "https://github.com/cloud-elements/hykes-engine/archive/v0.0.0.tar.gz"
   sha256 "d8805e75e28ac0fa70acb41239c59f483a31f55f7678ddb3655ddadfdddc1cc9"
