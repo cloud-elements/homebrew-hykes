@@ -1,7 +1,7 @@
 class HykesProvision < Formula
   homepage "https://github.com/cloud-elements/hykes-provision"
-  url "https://github.com/cloud-elements/hykes-provision/archive/v0.2.1.tar.gz"
-  sha256 "581f9c1f1e643a89634de8b987bdb5bcf607177118af1be0dd6f3eef7d833916"
+  url "https://github.com/cloud-elements/hykes-provision/archive/v0.3.0.tar.gz"
+  sha256 "4a45e552e588e9c8029efe0bc3d32c7e810993009cbf04d87ca9e04b76759e9f"
 
   depends_on "coreutils"
   depends_on "hykes-blueprint"
